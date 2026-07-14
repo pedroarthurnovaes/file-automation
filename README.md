@@ -1,6 +1,6 @@
 # File Automation
 
-A safety-first Python utility for validating, archiving, and replacing recurring Excel exports.
+A Python utility for validating, archiving, and replacing recurring Excel exports.
 
 This repository is a public, synthetic case study of a real operational automation. It demonstrates how human requirements and review were translated into a guarded workflow with Codex-assisted implementation, regression testing, and documented oversight. It contains no production workbooks or company-specific paths.
 
