@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+logs/
+demo/incoming/*.xlsx
+demo/active/*.xlsx
+demo/archive/*.xlsx
+!demo/incoming/.gitkeep
+!demo/active/.gitkeep
+!demo/archive/.gitkeep
+

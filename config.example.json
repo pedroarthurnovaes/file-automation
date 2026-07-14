@@ -1,0 +1,11 @@
+{
+  "active_dir": "demo/active",
+  "incoming_dir": "demo/incoming",
+  "archive_dir": "demo/archive",
+  "active_stem": "Current_Inventory",
+  "incoming_stem": "New Inventory Export",
+  "date_column": "Last Updated",
+  "require_incoming_not_older": true,
+  "overwrite_existing_archive": false
+}
+
