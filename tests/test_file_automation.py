@@ -56,8 +56,8 @@ class FileAutomationTests(unittest.TestCase):
 
             config = guard.load_config(config_path)
 
-            self.assertEqual(config.active_dir, root / "active")
-            self.assertEqual(config.incoming_dir, root / "incoming")
+            self.assertEqual(config.active_dir, (root / "active").resolve())
+            self.assertEqual(config.incoming_dir, (root / "incoming").resolve())
 
     def test_find_incoming_allows_duplicate_suffix_and_trailing_space(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
